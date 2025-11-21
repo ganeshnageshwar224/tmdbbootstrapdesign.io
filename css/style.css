@@ -1,0 +1,14 @@
+.main-page-container .main-navbar .navbar {
+    background-color:#032541;
+}
+
+.main-page-container .home-header{
+    background-image: url('../img/home-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-btn{
+    margin-left: -50px;
+}

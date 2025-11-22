@@ -12,3 +12,16 @@
 .search-btn{
     margin-left: -50px;
 }
+
+/* First slider normal size */
+.mySwiper {
+    width: 50%;
+    margin: auto;
+    height: 300px;
+}
+
+/* Second slider bigger */
+.bigSwiper {
+    width: 100%;
+    height: 400px;
+}

@@ -4,8 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TMDB Project</title>
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -14,7 +24,8 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
                         <a class="navbar-brand text-light" href="#">TMDB</a>
-                        <button class="navbar-toggler text-light bg-light" type="button"
+                        <button class="navbar-toggler text-light bg-light"
+                            type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent"
@@ -26,7 +37,9 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#"
+                                    <a
+                                        class="nav-link dropdown-toggle text-light"
+                                        href="#"
                                         role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Movies
@@ -43,7 +56,9 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#"
+                                    <a
+                                        class="nav-link dropdown-toggle text-light"
+                                        href="#"
                                         role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         TV Shows
@@ -60,7 +75,9 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#"
+                                    <a
+                                        class="nav-link dropdown-toggle text-light"
+                                        href="#"
                                         role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         People
@@ -77,7 +94,9 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#"
+                                    <a
+                                        class="nav-link dropdown-toggle text-light"
+                                        href="#"
                                         role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         More
@@ -95,7 +114,10 @@
                                 </li>
                             </ul>
                             <div>
-                                <div><i class="fa-solid fa-plus text-light fw-bolder"></i> <i class="fa-solid fa-magnifying-glass text-light fw-bolder"></i></div>
+                                <div><i
+                                        class="fa-solid fa-plus text-light fw-bolder"></i>
+                                    <i
+                                        class="fa-solid fa-magnifying-glass text-light fw-bolder"></i></div>
                                 <div></div>
                             </div>
                         </div>
@@ -104,15 +126,21 @@
             </div>
             <div class="search-bar container d-flex gap-2 align-items-center">
                 <i class="fa fa-search"></i>
-                <input class="form-control border-0" type="text" placeholder="Search for a movie, tv show, person......">
+                <input class="form-control border-0" type="text"
+                    placeholder="Search for a movie, tv show, person......">
             </div>
             <div class="home-header h-100 d-flex align-items-center p-5">
                 <div class="header-container container">
                     <h1 class="header-title mb-3 fw-bolder">Welcome.</h1>
-                    <h4 class="header-subtitle mb-5 fw-bolder">Millions of movies, TV shows and people to discover. Explore now.</h4>
+                    <h4 class="header-subtitle mb-5 fw-bolder">Millions of
+                        movies, TV shows and people to discover. Explore
+                        now.</h4>
                     <div class="d-flex align-items-center">
-                        <input type="text" class="form-control header-input rounded-pill" placeholder="Search for a movie, tv show, person......">
-                        <button class="rounded-pill btn btn-primary search-btn" type="submit" value="search">Search</button>
+                        <input type="text"
+                            class="form-control header-input rounded-pill"
+                            placeholder="Search for a movie, tv show, person......">
+                        <button class="rounded-pill btn btn-primary search-btn"
+                            type="submit" value="search">Search</button>
                     </div>
                 </div>
             </div>
@@ -123,49 +151,150 @@
                     <div class="row">
                         <div class="col-3">
                             <div class="card">
-                                <img src="./img/card1.webp" class="card-img-top rounded-3" alt="...">
+                                <img src="./img/card1.webp"
+                                    class="card-img-top rounded-3" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Movie Title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">View Details</a>
+                                    <p class="card-text">Some quick example text
+                                        to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">View
+                                        Details</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="card">
-                                <img src="./img/card2.webp" class="card-img-top" alt="...">
+                                <img src="./img/card2.webp" class="card-img-top"
+                                    alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Movie Title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">View Details</a>
+                                    <p class="card-text">Some quick example text
+                                        to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">View
+                                        Details</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="card">
-                                <img src="./img/card3.webp" class="card-img-top" alt="...">
+                                <img src="./img/card3.webp" class="card-img-top"
+                                    alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Movie Title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">View Details</a>
+                                    <p class="card-text">Some quick example text
+                                        to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">View
+                                        Details</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="card">
-                                <img src="./img/card4.webp" class="card-img-top" alt="...">
+                                <img src="./img/card4.webp" class="card-img-top"
+                                    alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Movie Title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">View Details</a>
+                                    <p class="card-text">Some quick example text
+                                        to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">View
+                                        Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Swiper Slider -->
+            <div class="container mt-5">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/card1.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card2.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card3.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card4.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination swiper-pagination-1"></div>
+
+                    <!-- Navigation -->
+                    <div class="swiper-button-prev swiper-prev-1"></div>
+                    <div class="swiper-button-next swiper-next-1"></div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="swiper myCardsSwiper bigSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/card1.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card2.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card3.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card4.webp" class="w-100 rounded"
+                                alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card1.webp"
+                                class="w-100 rounded" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card2.webp"
+                                class="w-100 rounded" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card3.webp"
+                                class="w-100 rounded" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/card4.webp"
+                                class="w-100 rounded" alt>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination swiper-pagination-2"></div>
+                    <div class="swiper-button-prev swiper-prev-2"></div>
+                    <div class="swiper-button-next swiper-next-2"></div>
+                </div>
+
+            </div>
+
         </div>
+
+        <!-- Bootstrap JS -->
         <script src="./js/bootstrap.bundle.min.js"></script>
+
+        <!-- Swiper JS -->
+        <script
+            src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Custom JS -->
         <script src="./js/script.js"></script>
+
     </body>
 </html>
